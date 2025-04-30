@@ -1,0 +1,28 @@
+#########################
+-Autorregressivo e Transformer
+Gera o proximo token baseado em todos os tokens anteriores.
+
+-GQA
+É uma técnica que reduz o custo de inferência dos Transformers. Em vez de calcular a atenção separadamente para cada head, o GQA compartilha as mesmas chaves e valores entre grupos de heads de atenção, economizando memória e acelerando o processamento — especialmente útil em modelos grandes durante a inferência.
+
+-SFT
+É quando pegamos um modelo já treinado (por exemplo, um LLM como LLaMA) e continuamos o treinamento dele com exemplos rotulados por humanos.
+
+-RLHF
+O modelo gera varias respostas e o humano escolhe qual é a melhor
+
+#########################
+-Beneficios da janela de contexto grande
+Sumarização avançada
+Resolução de problemas complexos
+Agentes conversacionais que ‘lembram’ do histórico
+Assistentes de programação com visão de grandes blocos de código
+
+#########################
+-Uso de ferramentas com estado da arte
+significa que o LLaMA 3.1 é capaz de se integrar a ferramentas externas modernas e avançadas, como navegadores, calculadoras, bancos de dados ou APIs, para ampliar suas capacidades além do texto. Exemplo: Um chatbot que consulta a internet para responder perguntas atualizadas ou usa uma calculadora para resolver contas.
+
+-Dados sintéticos e destilação
+O modelo pode ser usado para gerar dados sintéticos (dados artificiais criados pelo próprio modelo) para treinar outros modelos ou melhorar o desempenho de versões menores via distilação (um processo onde um modelo grande “ensina” um modelo menor).
+
+#########################
